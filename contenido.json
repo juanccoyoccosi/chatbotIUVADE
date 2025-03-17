@@ -1,0 +1,78 @@
+{
+    "contenido": [
+        {
+            "tag": "Servicios",
+            "patrones": [
+                "¿Qué servicios ofreces?",
+                "¿Qué servicios brindas?",
+                "¿Cómo me puedes asistir?",
+                "Servicios disponibles",
+                "¿Qué puedes hacer?",
+                "¿Qué tipo de ayuda brindas?",
+                "Que servicio ofreces",
+                "en qué me puedes ayudar",
+                "qué ayuda me puedes brindar",
+                "qué soporte ofreces",
+                "qué tipo de asistencia tienes"
+            ],
+            "respuestas": [
+                "Puedo asistirte con los siguientes servicios (elija uno):\n1. Información sobre SIGGE: sistema de gestión académica.\n2. Información sobre SIGGO: sistema de gestión operativa.\n3. Información sobre SIGEDUCA: plataforma educativa.\n4. Otros servicios relacionados con la gestión y la educación."
+            ],
+            "es_menu": true,
+            "opciones_menu": {
+                "1": "SIGGE",
+                "2": "SIGGO",
+                "3": "SIGEDUCA",
+                "4": "otros_servicios"
+            }
+        },
+        {
+            "tag": "SIGGE",
+            "patrones": [
+                "1",
+                "¿qué es SIGGE?",
+                "funciones de SIGGE",
+                "servicios de SIGGE",
+                "explicame SIGGE"
+            ],
+            "respuestas": [
+                "SIGGE es un sistema de gestión académica que facilita la administración de actividades educativas, incluyendo la matriculación de estudiantes, gestión de calificaciones y planificación de cursos."
+            ]
+        },
+        {
+            "tag": "SIGGO",
+            "patrones": [
+                "2",
+                "¿qué es SIGGO?",
+                "funciones de SIGGO",
+                "servicios de SIGGO"
+            ],
+            "respuestas": [
+                "SIGGO es un sistema de gestión operativa que ofrece herramientas para la administración eficiente de recursos, personal y operaciones diarias en instituciones educativas."
+            ]
+        },
+        {
+            "tag": "SIGEDUCA",
+            "patrones": [
+                "3",
+                "¿qué es SIGEDUCA?",
+                "funciones de SIGEDUCA",
+                "servicios de SIGEDUCA"
+            ],
+            "respuestas": [
+                "SIGEDUCA es una plataforma educativa que proporciona recursos digitales, herramientas de aprendizaje interactivo y gestión de contenido educativo."
+            ]
+        },
+        {
+            "tag": "otros_servicios",
+            "patrones": [
+                "4",
+                "otros servicios",
+                "más opciones"
+            ],
+            "respuestas": [
+                "Ofrecemos otros servicios relacionados con la gestión y la educación. ¿En qué más puedo ayudarte?"
+            ]
+        }
+    ]
+}
